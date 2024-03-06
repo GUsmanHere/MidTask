@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Blog</title>
+    <style>
+        * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+        <a class="navbar-brand" href="#">Usman</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="Home.html" target="_blank">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Services.html" target="_blank">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Blog.html" target="_blank">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Contact.html" target="_blank" >Contact Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="login.html" target="_blank">Login</a>
+            </li>
+            
+          </ul>
+        </div>
+      </nav>
+    <br><br><br>
+      
+      <div class="row">
+        <div class="leftcolumn">
+          <div class="card">
+            <h2>Information about SEO</h2>
+            <h5>Last Update 1/25/2024 at 12:13</h5>
+            <div class="fakeimg"  style="height:200px;">
+            <center><img src="data:image/png;base64,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" alt=""></div></center>
+            <p>SEO stands for “search engine optimization.” In simple terms, SEO means the process of improving your website to increase its visibility in Google, Microsoft Bing, and other search engines whenever people search for:
+
+                Products you sell.
+                Services you provide.
+                Information on topics in which you have deep expertise and/or experience.
+                The better visibility your pages have in search results, the more likely you are to be found and clicked on. Ultimately, the goal of search engine optimization is to help attract website visitors who will become customers, clients or an audience that keeps coming back.</p>
+          </div>
+        </div>
+        <div class="rightcolumn">
+          <div class="card">
+            <h2>About SEO</h2>
+            <p>SEO is a critical marketing channel. First, and foremost: organic search delivers 53% of all website traffic.
+
+                That’s one big reason why the global SEO industry is forecast to reach a staggering $122.11 billion by 2028. SEO drives real business results for brands, businesses and organizations of all sizes.
+                
+                Whenever people want to go somewhere, do something, find information, research or buy a product/service – their journey typically begins with a search. </p>
+          </div>
+          <div class="card">
+            <h3>Follow Me</h3>
+            <p>@UsmanMughal</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="comments">
+        <h2>Comments</h2>
+
+        <!-- Existing Comments -->
+        <ul id="existing-comments">
+            <!-- Each comment could be a list item -->
+            <!-- Example Comment -->
+            <!-- <li>
+                <p><strong>John Doe:</strong> This is a great post!</p>
+            </li> -->
+        </ul>
+
+        <!-- Comment Form -->
+        <form id="comment-form">
+            <label for="email">Email:</label>
+            <input type="text">
+             <br><br>
+            <label for="comment">Comment:</label>
+            <textarea id="comment" name="comment" rows="4" required></textarea>
+            <br><br>
+            <button type="submit">Submit Comment</button>
+        </form>
+    </div>
+      <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
