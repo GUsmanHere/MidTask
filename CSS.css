@@ -1,0 +1,219 @@
+ .navbar-brand{
+    color: rgb(255, 255, 0) !important;
+    font-size: 30px;
+  }
+  .nav-link{
+    color: rgb(255, 255, 255) !important;
+  }
+  .dropdown-menu{
+    background-color: aqua;
+    color: aliceblue;
+  }
+  .d-flex{
+    background-color: rgb(239, 239, 239);
+    color: rgb(239, 5, 5);
+  }
+  .container-fluid{
+    background-color: rgb(245, 1, 1);
+  }
+  body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #FED883;
+    }
+    
+
+    .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden ;
+    }
+    
+    footer {
+        background-color: #fc9d71;
+        color: #e03602;
+        text-align: center;
+        padding: 1rem 0;
+        position: scroll;
+        bottom: 0;
+        width: 100%;
+    }
+    .description{
+      font-weight: normal;
+      font-family: Arial, Helvetica, sans-serif;
+      width: 50%;
+      color:#000000;
+    }
+    .V_description{
+      margin-left: 20px;
+      font-weight: normal;
+      font-family: Arial, Helvetica, sans-serif;
+      width: 50%;
+      color: #000000;
+    }
+    .M_description{
+      margin-left: 50%;
+      font-weight: normal;
+      font-family: Arial, Helvetica, sans-serif;
+      width: 50%;
+      color: #000000;
+    }
+    .img-fluid{
+        width: 35%;
+        height: 350px;
+        margin-left: 60%;
+        margin-top: -55%;
+
+        
+    }
+    .img-fluid1{
+      width: 30%;
+      height: 300px;
+      margin-left: 60%;
+      margin-top: -20%; 
+  }
+
+  .img-fluid2{
+    width: 30%;
+    height: 300px;
+    margin-bottom: -30%; 
+    margin-left: 60px;
+}
+  .mission{
+    text-align: right;
+    margin-right: 150px;
+  }
+    @media screen and (max-width: 330px) {
+        .responsive{
+            padding: 0px 1px;
+        }
+        .category_image{
+            padding: 0px 1px;
+            margin-left: 25px;
+            
+        }
+        .working{
+          padding: 0px 1px;
+          margin-left: 25px;
+        }
+    }
+    .category{
+        margin-left: 15px;
+    }
+    *{
+        box-sizing: content-box;
+    }
+    h5{
+      color: black;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: xx-large;
+
+    }
+
+    /* Add to cart in men page */
+
+main.container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.product {
+  width: 300px;
+  border: 2px solid #000000;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.product img {
+  width: 200px;
+  height: 200px;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+  main.container {
+    justify-content: space-around;
+  }
+}
+
+
+
+
+/* contact form */
+main.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.contact-form {
+  width: 400px;
+  padding: 20px;
+  border: 2px solid #000000;
+}
+
+input,
+textarea{
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
+form button {
+  background-color: #333;
+  color: #fff;
+  border: 2px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+    
+
+
+/* Login form */
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  
+  border: 1px solid #4e3636;
+}
+
+
+/*FAQ */
+.faq-container {
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+
+.faq-item {
+  margin-bottom: 20px;
+}
+.question {
+  background-color: #f0f0f0;
+  padding: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+.answer {
+   display: none;
+   padding: 10px;
+   border-top: 1px solid #ccc;
+}
