@@ -1,42 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-  <loc>http://usmanmughal.me/</loc>
-  <lastmod>2024-03-19T17:16:51+00:00</lastmod>
-  <priority>1.00</priority>
+	<loc>https://usmanmughal.me/</loc>
+	<lastmod>2024-03-20T09:00:09+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://usmanmughal.me/index.html</loc>
-  <lastmod>2024-03-19T17:16:51+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://usmanmughal.me/index.html</loc>
+	<lastmod>2024-03-20T09:00:09+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://usmanmughal.me/Services.html</loc>
-  <lastmod>2024-03-19T17:16:51+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://usmanmughal.me/Services.html</loc>
+	<lastmod>2024-03-20T09:00:09+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://usmanmughal.me/Blog.html</loc>
-  <lastmod>2024-03-19T17:16:51+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://usmanmughal.me/Blog.html</loc>
+	<lastmod>2024-03-20T09:00:09+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://usmanmughal.me/Contact.html</loc>
-  <lastmod>2024-03-19T17:16:51+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://usmanmughal.me/Contact.html</loc>
+	<lastmod>2024-03-20T09:00:09+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://usmanmughal.me/login.html</loc>
-  <lastmod>2024-03-19T17:16:51+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://usmanmughal.me/login.html</loc>
+	<lastmod>2024-03-20T09:00:09+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
-
-
+<url>
+	<loc>https://usmanmughal.me/sitemap.html</loc>
+	<lastmod>2024-03-20T09:00:09+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
 </urlset>
