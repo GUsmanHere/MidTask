@@ -31,34 +31,13 @@
     }
   },
   {
-    "name": "Bootstrap Template",
-    "desc": "Basic website template built using HTML and Bootstrap.",
-    "image": "bootstraptemplate",
-    "category": "basicweb",
+    "name": "Plan10 Technology",
+    "desc": "This is my Agency and completed many projects from this platform.",
+    "image": "plan10",
+    "category": "android",
     "links": {
-      "view": "#",
-      "code": "#"
-    }
-  },
-  {
-    "name": "Foodicious",
-    "desc": "Basic food website landing page built using HTML, CSS and JavaScript.",
-    "image": "foodicious",
-    "category": "basicweb",
-    "links": {
-      "view": "#",
-      "code": "#"
-    }
-  },
-  {
-    "name": "Food Website",
-    "desc": "Basic food website landing page built using HTML, CSS, SASS, Bootstrap and jQuery.",
-    "image": "foodwebsite",
-    "category": "basicweb",
-    "links": {
-      "view": "#",
-      "code": "#"
+      "view": "https://www.google.com/search?q=plan10+technology&oq=plan10+technology&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCDg1NDBqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#mpd=setup/create?fp%3D5116272631525456080%26gmbsrc%3Dpk-en-et-ip-z-gmb-s-z-l~skp%257Cclaimbz_aoc_a%257Cu%26ppsrc%3DGMBSI%26skipLandingPage%26service%3Dome%26original_intent%3DGMB%26omesrcexp%3D48742768%26omec%3DEPCCnxcyAgECOjJnbWJzcmM9cGstZW4tZXQtaXAtei1nbWItcy16LWx-c2twfGNsYWltYnpfYW9jX2F8dUABShMIl5q_sPaUhQMV0clLAx0o9Ql8"
     }
   }
-  
+    
 ]
