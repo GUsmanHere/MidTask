@@ -2,7 +2,7 @@
   
   {
     "name": "Shahay Suiting",
-    "desc": "Shahay believes clothing is not only a fabric it’s an expression, a story to tell, and a story about who you are. We worked not only to offer you clothing but also to provide you with something that feels incredible. ",
+    "desc": "Shahay believes clothing is not only a fabric it’s an expression, a story to tell, and a story about who you are. We worked not only to offer you clothing.",
     "image": "shahay",
     "category": "mern",
     "links": {
@@ -12,7 +12,7 @@
   },
   {
     "name": "HyperX Gaming",
-    "desc": "Your Ultimate Gaming Gear Destination! Are you ready to elevate your gaming experience? At HyperX, we ’ve got everything you need to dominate the virtual battleground, no matter if you're just starting out or formerly a seasoned pro. ",
+    "desc": "Your Ultimate Gaming Gear Destination! Are you ready to elevate your gaming experience? ",
     "image": "hyperx",
     "category": "lamp",
     "links": {
@@ -22,7 +22,7 @@
   },
   {
     "name": "DoublyTech",
-    "desc": "We are currently based in the US. It is our honor to provide every type of marketing solution to a wide range of businesses. We are your loyal advisor. Our company uses quality expertise to deliver the best digital services.",
+    "desc": "We are currently based in the US. It is our honor to provide every type of marketing solution to a wide range of businesses. We are your loyal advisor. ",
     "image": "doubly",
     "category": "basicweb",
     "links": {
