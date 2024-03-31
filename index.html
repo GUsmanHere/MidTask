@@ -388,25 +388,14 @@
   import { getFirestore, collection, addDoc } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-firestore.js";
 
   // Your web app's Firebase configuration
-  //const firebaseConfig = {
-    //apiKey: "AIzaSyAqg4i4iB1So-r4z4pgQcF-uKwJD1jBTNY",
-    //authDomain: "test-7cc5c.firebaseapp.com",
-    //projectId: "test-7cc5c",
-    //storageBucket: "test-7cc5c.appspot.com",
-    //messagingSenderId: "910786325472",
-    //appId: "1:910786325472:web:9a63a0e76728710a15d985"
-  //};
-
   const firebaseConfig = {
-  apiKey: "AIzaSyCboIGJ9789_ESWHlZE8wrSVq3SPMUh02I",
-  authDomain: "usmanmughal-51.firebaseapp.com",
-  databaseURL: "https://usmanmughal-51-default-rtdb.firebaseio.com",
-  projectId: "usmanmughal-51",
-  storageBucket: "usmanmughal-51.appspot.com",
-  messagingSenderId: "78984399866",
-  appId: "1:78984399866:web:dabc88e15c6e268d257243",
-  measurementId: "G-NZWL48C4G8"
-};
+    apiKey: "AIzaSyAqg4i4iB1So-r4z4pgQcF-uKwJD1jBTNY",
+    authDomain: "test-7cc5c.firebaseapp.com",
+    projectId: "test-7cc5c",
+    storageBucket: "test-7cc5c.appspot.com",
+    messagingSenderId: "910786325472",
+    appId: "1:910786325472:web:9a63a0e76728710a15d985"
+  };
 
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
@@ -414,7 +403,7 @@
   const db = getFirestore(app);
 
   // Get a reference to the form and add an event listener for the submit event
-  const form = document.getElementById('Contacts');
+  const form = document.getElementById('contact-form');
   form.addEventListener('submit', async (e) => {
     e.preventDefault(); // Prevent the default form submit action
 
