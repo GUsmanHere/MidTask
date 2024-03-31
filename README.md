@@ -23,7 +23,7 @@ Particle.js, Typed.js, Tilt.js, Scroll Reveal, Tawk.to, Font Awesome and JSON
 
 If you want to contact me, you can reach me through below handles.
 
-&nbsp;&nbsp;<a href="https://www.instagram.com/g._usman_here/?next=%2F"><img src="https://www.felberpr.com/wp-content/uploads/linkedin-logo.png" width="30"></img></a>
+&nbsp;&nbsp;<a href="https://www.instagram.com/g._usman_here/?next=%2F"><img src="https://www.felberpr.com/wp-content/uploads/instagram-logo.png" width="30"></img></a>
 
 © 2024 Usman Mughal
 
