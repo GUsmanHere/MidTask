@@ -99,7 +99,7 @@
   const db = getFirestore(app);
 
   // Get a reference to the form and add an event listener for the submit event
-  const form = document.getElementById('contact-live');
+  const form = document.getElementById('live-chat');
   form.addEventListener('submit', async (e) => {
     e.preventDefault(); // Prevent the default form submit action
 
@@ -110,7 +110,7 @@
 
  
       // Add a new document with a generated id to the "contacts" collection
-    await addDoc(collection(db, "contact-live"), {
+    await addDoc(collection(db, "live-chat"), {
         name,
         email,
         message
