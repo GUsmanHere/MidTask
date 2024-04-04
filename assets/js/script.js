@@ -60,10 +60,10 @@ $(document).ready(function () {
 
 document.addEventListener("visibilitychange", function () {
   if (document.visibilityState === "visible") {
-    document.title = "Portfolio | Jigar Sable";
+    document.title = "Portfolio | Usman Mughal";
     $("#favicon").attr("href", "assets/images/favicon.png");
   } else {
-    document.title = "Come Back To Portfolio";
+    document.title = "Here is Usman";
     $("#favicon").attr("href", "assets/images/favhand.png");
   }
 });
